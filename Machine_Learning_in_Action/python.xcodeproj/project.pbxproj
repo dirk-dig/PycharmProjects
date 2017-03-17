@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B032C2BB1D6E1DC500B922D9 /* hello.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = hello.py; sourceTree = "<group>"; };
+		B03DF6471D7E060D00BD53E0 /* pandas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pandas; sourceTree = "<group>"; };
+		B0AD21A41D9D68120011AEC1 /* tokenizing.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = tokenizing.py; sourceTree = "<group>"; };
+		B0E42DC01D99FB3E0088D87D /* bayes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = bayes.py; sourceTree = "<group>"; };
+		B0E42DC11D99FC5B0088D87D /* mybayes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = mybayes.py; sourceTree = "<group>"; };
+		B0E7A5AA1D73837A00135D76 /* graph.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = graph.py; sourceTree = "<group>"; };
+		B0E7A5AB1D738E9A00135D76 /* NumPy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = NumPy.py; sourceTree = "<group>"; };
+		B0EBEA3E1D96AD8C003ACD00 /* MLinA.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MLinA.py; sourceTree = "<group>"; };
+		B0EBEA3F1D96B1F5003ACD00 /* kNN.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = kNN.py; sourceTree = "<group>"; };
+		B0EBEA401D96B3E4003ACD00 /* myclassfying.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = myclassfying.py; sourceTree = "<group>"; };
+		B0EBEA441D96F257003ACD00 /* myNorm.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = myNorm.py; sourceTree = "<group>"; };
+		B0EBEA471D976518003ACD00 /* myTest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = myTest.py; sourceTree = "<group>"; };
+		B0EBEA481D97FCEF003ACD00 /* myHandwritten.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = myHandwritten.py; sourceTree = "<group>"; };
+		B0F7BFD01D9836880063D643 /* myTrees.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = myTrees.py; sourceTree = "<group>"; };
+		B0F7BFD21D9838F30063D643 /* trees.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = trees.py; sourceTree = "<group>"; };
+		B0F7BFD31D9877700063D643 /* treePlotter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = treePlotter.py; sourceTree = "<group>"; };
+		B0F7BFD41D9877F90063D643 /* myTreePlotter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = myTreePlotter.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B032C2B01D6E1D8C00B922D9 = {
+			isa = PBXGroup;
+			children = (
+				B0EBEA411D96BC86003ACD00 /* MLinA */,
+				B03DF6471D7E060D00BD53E0 /* pandas */,
+				B0E7A5AB1D738E9A00135D76 /* NumPy.py */,
+				B0E7A5AA1D73837A00135D76 /* graph.py */,
+				B032C2BB1D6E1DC500B922D9 /* hello.py */,
+			);
+			sourceTree = "<group>";
+		};
+		B0EBEA411D96BC86003ACD00 /* MLinA */ = {
+			isa = PBXGroup;
+			children = (
+				B0EBEA3E1D96AD8C003ACD00 /* MLinA.py */,
+				B0EBEA3F1D96B1F5003ACD00 /* kNN.py */,
+				B0EBEA401D96B3E4003ACD00 /* myclassfying.py */,
+				B0EBEA441D96F257003ACD00 /* myNorm.py */,
+				B0EBEA471D976518003ACD00 /* myTest.py */,
+				B0EBEA481D97FCEF003ACD00 /* myHandwritten.py */,
+				B0F7BFD01D9836880063D643 /* myTrees.py */,
+				B0F7BFD21D9838F30063D643 /* trees.py */,
+				B0F7BFD31D9877700063D643 /* treePlotter.py */,
+				B0F7BFD41D9877F90063D643 /* myTreePlotter.py */,
+				B0E42DC01D99FB3E0088D87D /* bayes.py */,
+				B0E42DC11D99FC5B0088D87D /* mybayes.py */,
+				B0AD21A41D9D68120011AEC1 /* tokenizing.py */,
+			);
+			name = MLinA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B032C2B51D6E1D8C00B922D9 /* python */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = B032C2B81D6E1D8C00B922D9 /* Build configuration list for PBXLegacyTarget "python" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/python;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = python;
+			passBuildSettingsInEnvironment = 1;
+			productName = python;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		B032C2B11D6E1D8C00B922D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "石橋　直樹";
+				TargetAttributes = {
+					B032C2B51D6E1D8C00B922D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B032C2B41D6E1D8C00B922D9 /* Build configuration list for PBXProject "python" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B032C2B01D6E1D8C00B922D9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B032C2B51D6E1D8C00B922D9 /* python */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B032C2B61D6E1D8C00B922D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		B032C2B71D6E1D8C00B922D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		B032C2B91D6E1D8C00B922D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B032C2BA1D6E1D8C00B922D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B032C2B41D6E1D8C00B922D9 /* Build configuration list for PBXProject "python" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B032C2B61D6E1D8C00B922D9 /* Debug */,
+				B032C2B71D6E1D8C00B922D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B032C2B81D6E1D8C00B922D9 /* Build configuration list for PBXLegacyTarget "python" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B032C2B91D6E1D8C00B922D9 /* Debug */,
+				B032C2BA1D6E1D8C00B922D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B032C2B11D6E1D8C00B922D9 /* Project object */;
+}
